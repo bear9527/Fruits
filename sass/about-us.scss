@@ -1,0 +1,588 @@
+@charset "UTF-8";
+
+
+
+ @media (min-width: 768px){
+	//bg1
+	#bg1{
+		padding:0;
+		text-align:center;
+		.container{width:100%;}
+		.mengban{
+				width:100%;
+				height:100%;
+				background-color:rgba(0,0,0,0.4);
+		}
+		#bg1_main{
+			height:474px;
+			background-image:url(../images/picture/about_us_banner.png);
+			background-repeat:no-repeat;
+			background-size:100% 100%;
+			padding:0;
+			h2{
+				padding-top:200px;
+				margin-bottom:16px;
+				color:#fff;
+				font-size:62px;
+				font-weight:600;
+				font-family:MaiandraBlackItalicGD;
+			}
+			p{
+				font-family:Adobe Garamond Pro;
+				color:#dedfda;
+				// font-size:48px;
+				font-size: 36px;
+			}
+		}
+	}
+	//route
+	#route{
+		height: 74px;
+		background-color:#fff;
+		border-bottom:1px solid #f1f1eb;
+		#Route_main{
+			height: 74px;
+			overflow:hidden;
+		}
+		ol{
+			background-color:#fff;
+			line-height:57px;
+			float: right;
+			li{
+				a{
+					color:#87a834;
+				}
+				
+			}
+		}
+	}
+	//about_us
+	#about_us{
+		padding:30px 0;
+		padding-bottom:0;
+		#ab_txt{
+			padding-right: 38px;
+			h2{
+				padding:20px 0;
+				font-size:36px;
+				color:#000;
+			}
+			p{
+				font-size:16px;
+				line-height:24px;
+				padding-bottom:20px;
+			}
+		}
+		#ab_pic{
+			height:350px;
+			#ab_bg{
+				width:100%;
+				height:100%;
+				background-size:100% 100%;
+			}
+			
+		}
+	}
+			//bg_swiper
+	#bg_swiper{
+		height:234px;
+		overflow:hidden;
+		.container{
+		overflow:hidden;
+			
+		}
+		.bg_swiper-container{
+			width: 600px;
+    		height: 234px;
+			overflow:hidden;
+
+		}
+		.swiper-slide{
+			width:240px;
+			height:234px;
+			// background-color:#ccc;
+			margin:0;
+			.zzsbg{
+				width:240px;
+				height:234px;
+				margin:0;
+				padding:0;
+				background-repeat:no-repeat;
+				background-position:center;
+			}
+		}
+	}
+
+	//prospects
+	#prospects{
+		background: url(../images/img_1.png) no-repeat center right 0px;
+		background-color: #e9f1ee;
+		background-size:23%;
+		background-position-y: bottom;
+		.section-heading--left {
+		    margin-left: 0;
+		    margin-right: auto;
+		}
+		.section-heading:first-child {
+		    padding-top: 0;
+		    margin-top: -3px;
+		}
+		.section-heading {
+		    line-height: 1.4;
+		    font-size: 1.6rem;
+		    font-family: Poppins,sans-serif;
+		    font-weight: 400;
+		    color: #a7a7a7;
+		    max-width: 600px;
+		    padding-top: 97px;
+		    margin-bottom: 55px;
+		    z-index: auto;
+		}
+		.timeline {
+		    border-top: 1px solid #c8cfb8;
+		    border-left: none;
+		}
+		.timeline__inner {
+		    margin-bottom: -30px;
+		}
+		.timeline__item {
+		    padding-left: 0;
+		    padding-top: 55px;
+		     p {
+			    margin-top: 15px;
+			    margin-bottom: 15px;
+			}
+		}
+
+		.timeline__item {
+		    // padding-left: 40px;
+		    margin-bottom: 30px;
+		}
+		.timeline__item:before {
+		    top: 0;
+		    left: 6px;
+		    width: 1px;
+		    height: 40px;
+		}
+		.timeline__item:after, .timeline__item:before {
+		    content: "";
+		    background-color: #c8cfb8;
+		}
+		 p:first-child {
+		    margin-top: 0;
+		}
+		.timeline__year {
+		    line-height: 1;
+		    font-size: 6rem;
+		    font-family: Poppins,sans-serif;
+		}
+		.timeline__title, .timeline__year {
+		    color: #4a8b71;
+		    font-weight: 700;
+		}
+		.timeline__title {
+		    line-height: 1.3;
+		    font-size: 1.8rem;
+		}
+		.timeline__item:after {
+			position:absolute;
+		    top: -7px;
+		    left: 0;
+		}
+		.timeline__item:after {
+		    // top: 0;
+		    left: 7px;
+		    width: 14px;
+		    height: 14px;
+		    border: 4px solid #fff;
+		    border-radius: 50%;
+		}
+		.timeline__item:after, .timeline__item:before {
+		    content: "";
+		    background-color: #c8cfb8;
+		}
+		.timeline__item {
+		    // padding-left: 40px;
+		    margin-bottom: 30px;
+		}
+		.timeline__item:before {
+		    top: 0;
+		    left: 14px;
+		    width: 1px;
+		    height: 40px;
+		    position: absolute;
+		}
+		.timeline__item:before {
+		    content: "";
+		    background-color: #c8cfb8;
+		}
+		.timeline__item{
+			p:last-child{
+				color:#a2a5a4;
+			}
+		}
+		.title{
+			color:#000;
+			font-family:Arial;
+			font-weight: bold;
+		}
+
+	}
+	//team
+	#team{
+		padding-top: 60px;
+    	padding-bottom: 60px;
+		#list_main {
+		    padding: 0;
+
+		    .team_item {
+			    height: 276px;
+			    padding: 0;
+			    margin-bottom:50px;
+			    .team_item_bg {
+				    height: 80%;
+				    width: 94%;
+				    background-size: 100% 100%;
+				    margin: 0 auto;
+				}
+			}
+			.team_item_bm{
+				height:46px;
+				border-left:3px solid #4a8b71;
+				padding-left:10px;
+				margin-top:20px;
+				margin-left:10px;
+				color:#000;
+				h4{
+					font-size:18px;
+					font-family:Arial;
+					padding-bottom:8px;
+				}
+				p{
+					color:#a0a0a0;
+				}
+			}
+		}
+		.team_title {
+		    font-size: 3.5rem;
+		    font-family: Arial;
+		    font-weight: 600;
+		    color: #000;
+		    margin-bottom: 20px;
+		}
+	}
+ }
+
+
+@media (max-width: 768px){
+ 	
+	//bg1
+	#bg1{
+		padding:0;
+		padding-top:64px;
+		text-align:center;
+		height:463px;
+		height:100vh;
+		.container{width:100%;}
+		.mengban{
+				width:100%;
+				height:100%;
+				background-color:rgba(0,0,0,0.4);
+		}
+		#bg1_main{
+			height:463px;
+			height:90vh;
+			background-image:url(../images/picture/about_us_banner.png);
+			background-repeat:no-repeat;
+			background-position:center center;
+			background-size:300% 100%;
+			padding:0;
+			h2{
+				padding-top:60%;
+				margin-bottom:16px/2;
+				color:#fff;
+				font-size:48px/2;
+				font-weight:600;
+				font-family:MaiandraBlackItalicGD;
+			}
+			p{
+				color:#dedfda;
+				font-size:48px/2;
+				font-family:Adobe Garamond Pro;
+			}
+		}
+	}
+	//route
+	#route{
+		height: 72px;
+		margin-top:4px;
+		background-color:#fff;
+		border-bottom:1px solid #f1f1eb;
+		#Route_main{
+			height: 70px;
+			overflow:hidden;
+		}
+		ol{
+			background-color:#fff;
+			line-height:57px;
+			li{
+				a{
+					color:#87a834;
+				}
+				
+			}
+		}
+	}
+	//about_us
+	#about_us{
+		padding:0px 0;
+
+		#ab_txt{
+			h2{
+				padding:20px 0;
+				font-size:36px;
+				color:#000;
+				font-weight: bold;
+			}
+			p{
+				font-size:16px;
+				line-height:24px;
+				padding-bottom:20px;
+			}
+		}
+		#ab_pic{
+			height:350px;
+			#ab_bg{
+				width:100%;
+				height:100%;
+				background-size:100% 100%;
+			}
+			
+		}
+	}
+	//bg_swiper
+	#bg_swiper{
+		height:159px;
+		overflow:hidden;
+		.container{
+		overflow:hidden;
+			
+		}
+		.bg_swiper-container{
+			width: 100%;
+    		height:159px;
+			overflow:hidden;
+
+		}
+		.swiper-slide{
+			width:100px!important;
+			height:159px;
+			.zzsbg{
+				width:120px;
+				height:159px;
+				background-size: 50%;
+				background-repeat:no-repeat;
+				background-position:center;
+			}
+		}
+	}
+
+	//prospects
+	#prospects{
+		background: url(../images/img_1.png) no-repeat center right 0px;
+		background-color: #e9f1ee;
+		// background-size:23%;
+		.section-heading--left {
+		    margin-left: 0;
+		    margin-right: auto;
+		}
+		.section-heading:first-child {
+		    padding-top: 0;
+		    margin-top: -3px;
+		}
+		.section-heading {
+		    line-height: 1.4;
+		    font-size: 1.6rem;
+		    // font-family: Poppins,sans-serif;
+		    font-weight: 400;
+		    color: #a7a7a7;
+		    max-width: 600px;
+		    padding-top: 97px;
+		    margin-bottom: 55px;
+		    z-index: auto;
+		}
+		.timeline {
+		    border-top: 1px solid #c8cfb8;
+		    border-left: none;
+		}
+		.timeline__inner {
+		    margin-bottom: -30px;
+		}
+		.timeline__item {
+		    padding-left: 0;
+		    padding-top: 55px;
+		     p {
+			    margin-top: 15px;
+			    margin-bottom: 15px;
+			}
+		}
+
+		.timeline__item {
+		    // padding-left: 40px;
+		    margin-bottom: 30px;
+		}
+		.timeline__item:before {
+		    top: 0;
+		    left: 6px;
+		    width: 1px;
+		    height: 40px;
+		}
+		.timeline__item:after, .timeline__item:before {
+		    content: "";
+		    background-color: #c8cfb8;
+		}
+		 p:first-child {
+		    margin-top: 0;
+		}
+		.timeline__year {
+		    line-height: 1;
+		    font-size: 6rem;
+		    font-family: Poppins,sans-serif;
+		}
+		.timeline__title, .timeline__year {
+		    color: #4a8b71;
+		    font-weight: 700;
+		}
+		.timeline__title {
+		    line-height: 1.3;
+		    font-size: 1.8rem;
+		}
+		.timeline__item:after {
+			position:absolute;
+		    top: -7px;
+		    left: 0;
+		}
+		.timeline__item:after {
+		    // top: 0;
+		    left: 7px;
+		    width: 14px;
+		    height: 14px;
+		    border: 4px solid #fff;
+		    border-radius: 50%;
+		}
+		.timeline__item:after, .timeline__item:before {
+		    content: "";
+		    background-color: #c8cfb8;
+		}
+		.timeline__item {
+		    // padding-left: 40px;
+		    margin-bottom: 30px;
+		}
+		.timeline__item:before {
+		    top: 0;
+		    left: 14px;
+		    width: 1px;
+		    height: 40px;
+		    position: absolute;
+		}
+		.timeline__item:before {
+		    content: "";
+		    background-color: #c8cfb8;
+		}
+		.timeline__item{
+			p:last-child{
+				color:#a2a5a4;
+			}
+		}
+		.title{
+			color:#000;
+			font-family:Arial;
+		}
+
+	}
+	//team
+	#team{
+		padding-top: 40px;
+    	padding-bottom: 20px;
+		#list_main {
+		    padding: 0;
+
+		    .team_item {
+			    height: 276px;
+			    padding: 0;
+			    margin-bottom:50px;
+			    .team_item_bg {
+				    height: 80%;
+				    width: 94%;
+				    background-size: 100% 100%;
+				    margin: 0 auto;
+				}
+			}
+			.team_item_bm{
+				height:46px;
+				border-left:3px solid #4a8b71;
+				padding-left:10px;
+				margin-top:20px;
+				margin-left:10px;
+				color:#000;
+				h4{
+					font-size:18px;
+					font-family:Arial;
+					padding-bottom:8px;
+				}
+				p{
+					color:#a0a0a0;
+				}
+			}
+		}
+		.team_title {
+		    font-size: 3.5rem;
+		    font-family: Arial;
+		    font-weight: 600;
+		    color: #000;
+		    margin-bottom: 20px;
+		}
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width:1052px){
+	#header_main {
+	    width: 98%!important;
+	    margin-left: 2%;
+	}
+	#header_main #nav_list {
+	    width: 90%;
+	    padding: 0;
+	    padding-left: 0%;
+	}
+	#header_main #nav_list > li > a {
+	    padding-top: 40px;
+	    padding-bottom: 40px;
+	    position: relative;
+	    color: #fff;
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	#language > a {
+	    width: 76px;
+	    padding: 13px !important;
+	    margin-top: 22%;
+	    border: 2px solid #f60;
+	    border-radius: 10px;
+	    text-align: center;
+	    color: #fff;
+	}
+	#nav {
+	    width: 100%;
+	    float: left;
+	    margin: 0;
+	    margin-bottom: -100px;
+	    z-index: 9999;
+	    border-bottom: 1px solid #ffffff26;
+	}
+
+	
+
+}
